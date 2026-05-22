@@ -1,1 +1,3 @@
-# porifera-microsynteny-phylogeny
+# Inferring deep phylogeny of Sponges (Porifera) using microsyntenies
+
+
