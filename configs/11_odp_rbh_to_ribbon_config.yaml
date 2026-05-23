@@ -1,0 +1,155 @@
+# odp_rbh_to_ribbon
+# There are several options for how to sort the chromosomes.
+# More information is available in the config file.
+chr_sort_order: optimal-chr-or
+
+# Tells the program whether to plot the non-significant interactions.
+plot_all: True
+
+# Specifies which species will be plotted from the top-to-bottom.
+species_order:
+  - Bcyanae
+  - Abeatrix
+  - Sciliatum
+  - Davara
+  - Acrassa
+  - Hpanicea
+  - Ccandelabrum
+  - Olobularis
+  - Hsymbiolongicarpus
+  - Nvectensis
+  - Pverrucosa
+  - Mleidyi
+  - Bmicroptera
+  - Cowczarzaki
+
+rbh_directory: analysis/odp_run/10_odp_groupby_to_rbh/odp_groupby_to_rbh/output/rbh_for_ribbon_plot/
+
+# Only two species are shown here for brevity,
+#  but please include the species information for all the species you wish to plot.
+species:
+  Davara:
+    proteins: /data/proteins/D_avara.faa
+    chrom: /data/chromes/D_avara.chrom
+    genome: /data/genomes/D_avara.fna
+    genus: "Dysidea"
+    species: "avara"
+
+  Acrassa:
+    proteins: /data/proteins/A_crassa.faa
+    chrom: /data/chromes/A_crassa.chrom
+    genome: /data/genomes/A_crassa.fna
+    genus: "Aiolochroia"
+    species: "crassa"
+
+  Hpanicea:
+    proteins: /data/proteins/H_panicea.faa
+    chrom: /data/chromes/H_panicea.chrom
+    genome: /data/genomes/H_panicea.fna
+    genus: "Halichondria"
+    species: "panicea"
+
+  Abeatrix:
+    proteins: /data/proteins/A_beatrix.faa
+    chrom: /data/chromes/A_beatrix.chrom
+    genome: /data/genomes/A_beatrix.fna
+    genus: "Aphrocallistes"
+    species: "beatrix"
+
+  Bcyanae:
+    proteins: /data/proteins/B_cyanae.faa
+    chrom: /data/chromes/B_cyanae.chrom
+    genome: /data/genomes/B_cyanae.fna
+    genus: "Bolosoma"
+    species: "cyanae"
+
+  Sciliatum:
+    proteins: /data/proteins/S_ciliatum.faa
+    chrom: /data/chromes/S_ciliatum.chrom
+    genome: /data/genomes/S_ciliatum.fna
+    genus: "Sycon"
+    species: "ciliatum"
+
+  Olobularis:
+    proteins: /data/proteins/O_lobularis.faa
+    chrom: /data/chromes/O_lobularis.chrom
+    genome: /data/genomes/O_lobularis.fna
+    genus: "Oscarella"
+    species: "lobularis"
+
+  Ccandelabrum:
+    proteins: /data/proteins/C_candelabrum.faa
+    chrom: /data/chromes/C_candelabrum.chrom
+    genome: /data/genomes/C_candelabrum.fna
+    genus: "Corticium"
+    species: "candelabrum"
+
+  Bmicroptera:
+    proteins: /data/proteins/B_microptera.faa
+    chrom: /data/chromes/B_microptera.chrom
+    genome: /data/genomes/B_microptera.fna
+    genus: "Bolinopsis"
+    species: "microptera"
+
+  Mleidyi:
+    proteins: /data/proteins/M_leidyi.faa
+    chrom: /data/chromes/M_leidyi.chrom
+    genome: /data/genomes/M_leidyi.fna
+    genus: "Mnemiopsis"
+    species: "leidyi"
+
+  Pverrucosa:
+    proteins: /data/proteins/P_verrucosa.faa
+    chrom: /data/chromes/P_verrucosa.chrom
+    genome: /data/genomes/P_verrucosa.fna
+    genus: "Pocillopora"
+    species: "verrucosa"
+
+  Hsymbiolongicarpus:
+    proteins: /data/proteins/H_symbiolongicarpus.faa
+    chrom: /data/chromes/H_symbiolongicarpus.chrom
+    genome: /data/genomes/H_symbiolongicarpus.fna
+    genus: "Hydractinia"
+    species: "symbiolongicarpus"
+
+  Nvectensis:
+    proteins: /data/proteins/N_vectensis.faa
+    chrom: /data/chromes/N_vectensis.chrom
+    genome: /data/genomes/N_vectensis.fna
+    genus: "Nematostella"
+    species: "vectensis"
+
+  Celegans:
+    proteins: /data/proteins/C_elegans.faa
+    chrom: /data/chromes/C_elegans.chrom
+    genome: /data/genomes/C_elegans.fna
+    genus: "Caenorhabditis"
+    species: "elegans"
+
+  Dpulex:
+    proteins: /data/proteins/D_pulex.faa
+    chrom: /data/chromes/D_pulex.chrom
+    genome: /data/genomes/D_pulex.fna
+    genus: "Daphnia"
+    species: "pulex"
+
+  Harmigera:
+    proteins: /data/proteins/H_armigera.faa
+    chrom: /data/chromes/H_armigera.chrom
+    genome: /data/genomes/H_armigera.fna
+    genus: "Helicoverpa"
+    species: "armigera"
+
+  Srosetta:
+    proteins: /data/proteins/S_rosetta.faa
+    chrom: /data/chromes/S_rosetta.chrom
+    genome: /data/genomes/S_rosetta.fna
+    genus: "Salpingoeca"
+    species: "rosetta"
+
+  Cowczarzaki:
+    proteins: /data/proteins/C_owczarzaki.faa
+    chrom: /data/chromes/C_owczarzaki.chrom
+    genome: /data/genomes/C_owczarzaki.fna
+    genus: "Capsaspora"
+    species: "owczarzaki"

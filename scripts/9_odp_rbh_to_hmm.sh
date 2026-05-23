@@ -1,0 +1,19 @@
+#!/bin/bash
+# odp rbh to hmm
+
+project_root=$(pwd)
+mkdir -p analysis/odp_run/7_odp_rbh_to_hmm
+cp configs/configs/7_config_odp_rbh_to_hmm.yaml analysis/odp_run/7_odp_rbh_to_hmm/config.yaml
+cd analysis/odp_run/7_odp_rbh_to_hmm
+
+snakemake -s "$project_root/odp/scripts/odp_rbh_to_hmm" --cores 4
+
+cp odp_rbh_to_HMM/output/Abeatrix_Ccandelabrum_Davara_Sciliatum_rbhhmm_plus_other_species.rbh odp_rbh_to_HMM/output/Cowczarzaki_Bmicroptera_Davara_Nvectensis_rbhhmm_plus_other_species.rbh
+
+cp odp_rbh_to_HMM/output/Abeatrix_Ccandelabrum_Davara_Sciliatum_rbhhmm_plus_other_species.rbh odp_rbh_to_HMM/output/Cowczarzaki_Bmicroptera_Abeatrix_Nvectensis_rbhhmm_plus_other_species.rbh
+
+cp odp_rbh_to_HMM/output/Abeatrix_Ccandelabrum_Davara_Sciliatum_rbhhmm_plus_other_species.rbh odp_rbh_to_HMM/output/Cowczarzaki_Bmicroptera_Sciliatum_Nvectensis_rbhhmm_plus_other_species.rbh
+
+cp odp_rbh_to_HMM/output/Abeatrix_Ccandelabrum_Davara_Sciliatum_rbhhmm_plus_other_species.rbh odp_rbh_to_HMM/output/Cowczarzaki_Bmicroptera_Ccandelabrum_Nvectensis_rbhhmm_plus_other_species.rbh 
+
+cd $project_root

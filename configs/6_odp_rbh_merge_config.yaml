@@ -1,0 +1,9 @@
+# Merge the rbh files
+
+rbh_files:
+  - analysis/odp_run/7_odp_rbh_to_hmm/odp_nway_rbh/step3-unwrap/Abeatrix_Ccandelabrum_Davara.unwrapped.rbh
+  - analysis/odp_run/7_odp_rbh_to_hmm/odp_nway_rbh/step3-unwrap/Abeatrix_Davara_Sciliatum.unwrapped.rbh
+  - analysis/odp_run/7_odp_rbh_to_hmm/odp_nway_rbh/step3-unwrap/Ccandelabrum_Davara_Sciliatum.unwrapped.rbh
+
+anchor_species:
+  - Davara
