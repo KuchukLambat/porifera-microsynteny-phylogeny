@@ -1,0 +1,9 @@
+
+BEGIN MRBAYES;
+	outgroup Srosetta;
+	ctype ordered: 1-120;
+	lset nst=1 rates=gamma;
+	mcmc ngen=1000000 samplefreq=1000;
+	sump burnin=250; 
+	sumt burnin=250;
+END;

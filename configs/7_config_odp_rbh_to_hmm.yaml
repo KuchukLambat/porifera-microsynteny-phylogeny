@@ -1,0 +1,131 @@
+#odp_rbh_to_hmm
+
+rbh_file: analysis/odp_run/6_odp_rbh_merge/odp_rbh_merge/output/Davara.mer
+
+species:
+  Davara:
+    proteins: data/proteins/D_avara.faa
+    chrom: data/chromes/D_avara.chrom
+    genome: data/genomes/D_avara.fna
+    genus: "Dysidea"
+    species: "avara"
+
+  Abeatrix:
+    proteins: data/proteins/A_beatrix.faa
+    chrom: data/chromes/A_beatrix.chrom
+    genome: data/genomes/A_beatrix.fna
+    genus: "Aphrocallistes"
+    species: "beatrix"
+
+  Sciliatum:
+    proteins: data/proteins/S_ciliatum.faa
+    chrom: data/chromes/S_ciliatum.chrom
+    genome: data/genomes/S_ciliatum.fna
+    genus: "Sycon"
+    species: "ciliatum"
+
+  Ccandelabrum:
+    proteins: data/proteins/C_candelabrum.faa
+    chrom: data/chromes/C_candelabrum.chrom
+    genome: data/genomes/C_candelabrum.fna
+    genus: "Corticium"
+    species: "candelabrum"
+
+  Acrassa:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/A_crassa.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/A_crassa.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/A_crassa.fna
+    genus: "Aiolochroia"
+    species: "crassa"
+
+  Hpanicea:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/H_panicea.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/H_panicea.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/H_panicea.fna
+    genus: "Halichondria"
+    species: "panicea"
+
+  Bcyanae:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/B_cyanae.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/B_cyanae.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/B_cyanae.fna
+    genus: "Bolosoma"
+    species: "cyanae"
+
+  Olobularis:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/O_lobularis.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/O_lobularis.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/O_lobularis.fna
+    genus: "Oscarella"
+    species: "lobularis"
+
+  Bmicroptera:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/B_microptera.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/B_microptera.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/B_microptera.fna
+    genus: "Bolinopsis"
+    species: "microptera"
+
+  Mleidyi:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/M_leidyi.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/M_leidyi.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/M_leidyi.fna
+    genus: "Mnemiopsis"
+    species: "leidyi"
+
+  Pverrucosa:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/P_verrucosa.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/P_verrucosa.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/P_verrucosa.fna
+    genus: "Pocillopora"
+    species: "verrucosa"
+
+  Hsymbiolongicarpus:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/H_symbiolongicarpus.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/H_symbiolongicarpus.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/H_symbiolongicarpus.fna
+    genus: "Hydractinia"
+    species: "symbiolongicarpus"
+
+  Nvectensis:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/N_vectensis.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/N_vectensis.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/N_vectensis.fna
+    genus: "Nematostella"
+    species: "vectensis"
+
+
+  Celegans:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/C_elegans.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/C_elegans.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/C_elegans.fna
+    genus: "Caenorhabditis"
+    species: "elegans"
+
+  Dpulex:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/D_pulex.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/D_pulex.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/D_pulex.fna
+    genus: "Daphnia"
+    species: "pulex"
+
+  Harmigera:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/H_armigera.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/H_armigera.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/H_armigera.fna
+    genus: "Helicoverpa"
+    species: "armigera"
+
+  Srosetta:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/S_rosetta.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/S_rosetta.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/S_rosetta.fna
+    genus: "Salpingoeca"
+    species: "rosetta"
+
+  Cowczarzaki:
+    proteins: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/proteins/C_owczarzaki.fasta
+    chrom: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/chromes/C_owczarzaki.chrom
+    genome: /gpfs/data/gpfs0/vasiliy.zubarev/Sponge_synteny/Analysis/odp_run/genomes/C_owczarzaki.fna
+    genus: "Capsaspora"
+    species: "owczarzaki"

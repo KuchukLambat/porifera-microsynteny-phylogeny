@@ -1,0 +1,42 @@
+# odp_nway_rbh
+nways: 3
+
+search_method: diamond
+duplicate_proteins: "pass"
+
+analyses:
+  - ["Davara", "Abeatrix", "Sciliatum"]
+  - ["Davara", "Abeatrix", "Ccandelabrum"]
+  - ["Davara", "Sciliatum", "Ccandelabrum"]
+  - ["Abeatrix", "Sciliatum", "Ccandelabrum"]
+
+num_permutations: 1000000
+
+species:
+  Davara:
+    proteins: data/proteins/D_avara.faa
+    chrom: data/chromes/D_avara.chrom
+    genome: data/genomes/D_avara.fna
+    genus: "Dysidea"
+    species: "avara"
+
+  Abeatrix:
+    proteins: data/proteins/A_beatrix.faa
+    chrom: data/chromes/A_beatrix.chrom
+    genome: data/genomes/A_beatrix.fna
+    genus: "Aphrocallistes"
+    species: "beatrix"
+
+  Sciliatum:
+    proteins: data/proteins/S_ciliatum.faa
+    chrom: data/chromes/S_ciliatum.chrom
+    genome: data/genomes/S_ciliatum.fna
+    genus: "Sycon"
+    species: "ciliatum"
+
+  Ccandelabrum:
+    proteins: data/proteins/C_candelabrum.faa
+    chrom: data/chromes/C_candelabrum.chrom
+    genome: data/genomes/C_candelabrum.fna
+    genus: "Corticium"
+    species: "candelabrum"
