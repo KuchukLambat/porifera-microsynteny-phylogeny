@@ -1,1 +1,23 @@
-Species_1
+Porifera (8 species):
+	Demospongiae:
+		Dysidea avara (GCA_963678975.2);
+		Aiolochroia crassa (GCA_964263335.1 и ERR13962532);
+		Halichondria panicea (GCA_963675165.1);
+	Hexactinellida:
+		Aphrocallistes beatrix (GCA_963281255.1 и ERR12321229);
+		Bolosoma cyanae (GCA_964258925.1 и ERR13962529);
+	Calcarea:
+		Sycon ciliatum (GCA_964019385.1);
+	Homoscleromorpha:
+		Corticium candelabrum (GCA_963422355.1);
+		Oscarella lobularis (GCA_947507565.1);
+Cnidaria (3 species);
+		Pocillopora verrucosa (GCA_036669915.2);
+		Hydractinia symbiolongicarpus (GCA_029227915.2);
+		Nematostella vectensis (GCA_932526225.1);
+Ctenophora (2 species):
+		Bolinopsis microptera (GCA_026151205.1);
+		Mnemiopsis leidyi (GCA_048537945.1);
+Filasterea (1 species as an outgroup):
+		Capsaspora owczarzaki (GCA_000151315.2).
+		
