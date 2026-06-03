@@ -10,7 +10,7 @@ tax = ['Srosetta', 'Cowczarzaki', 'Bmicroptera', 'Mleidyi', 'Davara', 'Acrassa',
 df_nex = pd.DataFrame([[0] * len(ALGs) for _ in range(len(tax))], 
                       index=tax, columns=ALGs)
 
-df_mixing = pd.read_csv('analysis/odp_run/12_odp_rbh_plot_mixing/odp_rbh_plot_mixing/output_mixing_merged/all_species_mixing.tsv', 
+df_mixing = pd.read_csv('analysis/odp_run/14_odp_rbh_plot_mixing/odp_rbh_plot_mixing/output_mixing_merged/all_species_mixing.tsv', 
                         sep='\t', , usecols=['species', 'mixed_groups', 'genestring'])
 
 for i in range(len(df_mixing)):

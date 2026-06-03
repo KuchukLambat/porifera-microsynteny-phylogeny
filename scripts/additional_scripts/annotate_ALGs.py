@@ -13,12 +13,12 @@ color = ['#5e22e5', '#42bf44', '#8c072b', '#2291e5', '#adbf42', '#78078c', '#22e
          ]
 
 
-path_1 = '/9_odp_groupby_filter/odp_groupby_filter/output/combined.rbh.filt.groupby'
+path_1 = '/11_odp_groupby_filter/odp_groupby_filter/output/combined.rbh.filt.groupby'
 df_groupby = pd.read_csv(path_1, sep='\t')
 
 df_groupby_edit = df_groupby.copy()
 
 df_groupby_edit[['gene_group', 'color']] = [[f'ALG_{i}', color[i-1]] for i in range(1, len(df_groupby)+1)]
 
-path_to_save = '/9_odp_groupby_filter/odp_groupby_filter/output/combined_annotated.filt.groupby'
+path_to_save = '/11_odp_groupby_filter/odp_groupby_filter/output/combined_annotated.filt.groupby'
 df_groupby_edit.to_csv(path_to_save, sep='\t', index=False)
