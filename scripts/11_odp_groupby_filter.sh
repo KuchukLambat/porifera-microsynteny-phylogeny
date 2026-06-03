@@ -2,9 +2,9 @@
 # odp groupby filter
 
 project_root=$(pwd)
-mkdir -p analysis/odp_run/9_odp_groupby_filter
-cp configs/configs/9_odp_groupby_filter_config.yaml analysis/odp_run/9_odp_groupby_filter/config.yaml
-cd analysis/odp_run/9_odp_groupby_filter
+mkdir -p analysis/odp_run/11_odp_groupby_filter
+cp configs/configs/11_odp_groupby_filter_config.yaml analysis/odp_run/11_odp_groupby_filter/config.yaml
+cd analysis/odp_run/11_odp_groupby_filter
 
 snakemake -s "$project_root/odp/scripts/odp_groupby_filter" --cores 4
 

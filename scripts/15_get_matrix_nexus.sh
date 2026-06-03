@@ -2,8 +2,8 @@
 # get matrix nexus
 
 project_root=$(pwd)
-mkdir -p analysis/odp_run/13_get_matrix_nexus
-cd analysis/odp_run/13_get_matrix_nexus
+mkdir -p analysis/odp_run/15_get_matrix_nexus
+cd analysis/odp_run/15_get_matrix_nexus
 
 python get_matrix_nexus.py
 

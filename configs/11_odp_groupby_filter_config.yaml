@@ -1,0 +1,9 @@
+# odp_groupby_filter
+
+groupby_files:
+  - analysis/odp_run/10_odp_rbh_to_groupby/odp_rbh_to_groupby/output/Cowczarzaki_Bmicroptera_Davara_Nvectensis_rbhhmm_plus_other_species_reciprocal_best_hits.rbh.groupby
+  - analysis/odp_run/10_odp_rbh_to_groupby/odp_rbh_to_groupby/output/Cowczarzaki_Bmicroptera_Abeatrix_Nvectensis_rbhhmm_plus_other_species_reciprocal_best_hits.rbh.groupby
+  - analysis/odp_run/10_odp_rbh_to_groupby/odp_rbh_to_groupby/output/Cowczarzaki_Bmicroptera_Sciliatum_Nvectensis_rbhhmm_plus_other_species_reciprocal_best_hits.rbh.groupby
+  - analysis/odp_run/10_odp_rbh_to_groupby/odp_rbh_to_groupby/output/Cowczarzaki_Bmicroptera_Ccandelabrum_Nvectensis_rbhhmm_plus_other_species_reciprocal_best_hits.rbh.groupby
+
+alpha: 0.05

@@ -23,7 +23,7 @@ species_order:
   - Bmicroptera
   - Cowczarzaki
 
-rbh_directory: analysis/odp_run/10_odp_groupby_to_rbh/odp_groupby_to_rbh/output/rbh_for_ribbon_plot/
+rbh_directory: analysis/odp_run/12_odp_groupby_to_rbh/odp_groupby_to_rbh/output/rbh_for_ribbon_plot/
 
 # Only two species are shown here for brevity,
 #  but please include the species information for all the species you wish to plot.
