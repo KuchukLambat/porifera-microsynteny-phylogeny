@@ -25,7 +25,8 @@ for sp_1 in range(num_species):
                     f'{sp_2_col}_pos',
                     'whole_FET',
                     'break_FET',
-                    'color']
+                    'color',
+                    ]
         
         df_rbh_plotted = df_rbh[selected_columns].dropna()
         file_name = f'/odp_groupby_to_rbh/output/rbh_for_ribbon_plot/{sp_1_col}_{sp_2_col}.plotted.rbh'

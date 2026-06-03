@@ -2,9 +2,9 @@
 # odp rbh to hmm
 
 project_root=$(pwd)
-mkdir -p analysis/odp_run/7_odp_rbh_to_hmm
-cp configs/configs/7_config_odp_rbh_to_hmm.yaml analysis/odp_run/7_odp_rbh_to_hmm/config.yaml
-cd analysis/odp_run/7_odp_rbh_to_hmm
+mkdir -p analysis/odp_run/9_odp_rbh_to_hmm
+cp configs/configs/9_config_odp_rbh_to_hmm.yaml analysis/odp_run/9_odp_rbh_to_hmm/config.yaml
+cd analysis/odp_run/9_odp_rbh_to_hmm
 
 snakemake -s "$project_root/odp/scripts/odp_rbh_to_hmm" --cores 4
 

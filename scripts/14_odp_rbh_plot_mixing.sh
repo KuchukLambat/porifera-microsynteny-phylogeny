@@ -2,9 +2,9 @@
 # odp_rbh_plot_mixing
 
 project_root=$(pwd)
-mkdir -p analysis/odp_run/12_odp_rbh_plot_mixing
-cp configs/configs/12_odp_rbh_plot_mixing_config.yaml analysis/odp_run/12_odp_rbh_plot_mixing/config.yaml
-cd analysis/odp_run/12_odp_rbh_plot_mixing
+mkdir -p analysis/odp_run/14_odp_rbh_plot_mixing
+cp configs/configs/14_odp_rbh_plot_mixing_config.yaml analysis/odp_run/14_odp_rbh_plot_mixing/config.yaml
+cd analysis/odp_run/14_odp_rbh_plot_mixing
 
 snakemake -s "$project_root/odp/scripts/odp_rbh_plot_mixing" --cores 4
 
