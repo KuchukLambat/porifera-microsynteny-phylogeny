@@ -1,6 +1,6 @@
 #odp_rbh_to_hmm
 
-rbh_file: analysis/odp_run/6_odp_rbh_merge/odp_rbh_merge/output/Davara.mer
+rbh_file: analysis/odp_run/8_odp_rbh_merge/odp_rbh_merge/output/Davara.mer
 
 species:
   Davara:
